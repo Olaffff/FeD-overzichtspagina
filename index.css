@@ -1,0 +1,156 @@
+* {
+    font-family: Segoe UI;
+}
+
+body {
+    background-color: #e5e5e5;
+	margin: 0;
+}
+
+nav {
+    padding-top: 1em;
+    padding-bottom: 1em;
+	background-color: #FFFFFF;
+}
+
+nav a {
+    color: #0079D3;
+    text-decoration: none;
+    padding-left: 0.9em;
+    transition: 0.4s ease;
+    font-size: 0.8em;
+}
+
+
+
+/*code voor op de overzichts pagina*/
+/*code overzichtspagina sectie main*/
+main.index section.section_main img {
+    width: 100%;
+    height: 8em;
+}
+
+main.index h1 {
+    text-align: center;
+    color: #0079D3;
+}
+
+main.index fieldset {
+    background-color: #fec718;
+    border: none;
+}
+
+main.index fieldset legend {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+main.index section.section_main label {
+    display: block;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+main.index fieldset button {
+    background-color: #0079D3;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+/*code overzichtspagina sectie 1*/
+main.index section.section_1 {
+    flex-direction: column;
+    display: flex;
+}
+
+main.index article {
+    background-color: #FFFFFF;
+	margin-top: 1em;
+}
+
+main.index section.section_1 img {
+    width: 100%;
+}
+
+main.index h2 {
+    text-align: center;
+    color: #0079D3;
+    font-size: 1.6em;
+}
+
+main.index h3 {
+    background-color: #0079D3;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.6em;
+}
+
+main.index article p:nth-of-type(1) {
+    margin: 0;
+}
+
+main.index article p:nth-of-type(2) {
+    text-align: center;
+    margin-top: 0;
+}
+
+main.index article a {
+    background-color: #0079D3;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 0.6em;
+	transition: 0.4s ease;
+}
+
+main.index article a:hover {
+    background-color: #103699;
+}
+
+
+/*code overzichtspagina sectie 2*/
+main.index section.section_2 {
+    flex-direction: column;
+    display: flex;
+	margin-bottom: 2em;
+}
+
+main.index section.section_2 img {
+    width: 100%;
+}
+
+
+/*CSS voor de inlog pagina*/
+main.inlog {
+    background-color: #ffd136;
+}
+
+main.inlog h1 {
+    font-size: 1.5em;
+    color: #0079D3;
+}
+
+main.inlog form label {
+    display: block;
+}
+
+footer {
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+footer li {
+    color: #0079D3;
+	list-style: none;
+}
+footer a { color: #408be2; font-size: 11px; }
+footer a:hover,
+footer a:focus { color: #FF6512; text-decoration: none; }
+.foot_header { font-size: 1.2rem; font-weight: bold; }
+footer .links a { text-transform: uppercase; }
+footer .links a::before { content: '\f061'; font-family: FontAwesome; padding-right: 10px; }
+.copyright { text-align: center; color: #FFF; }
